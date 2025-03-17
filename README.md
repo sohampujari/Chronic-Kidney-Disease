@@ -68,10 +68,6 @@ The dataset consists of 400 patient records, with 158 complete records used to p
 
 ## Results  
 The Extra Trees Classifier and Random Forest achieved the highest accuracy in predicting CKD.  
-
-## Contributors  
-- **Your Name** (your.email@example.com)  
-
 ---
 
 Let me know if you need any modifications!
