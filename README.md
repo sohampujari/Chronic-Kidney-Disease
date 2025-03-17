@@ -1,8 +1,4 @@
-Here’s a well-structured README for your project:  
-
----
-
-# Prediction of Chronic Kidney Disease using Machine Learning  
+## Prediction of Chronic Kidney Disease using Machine Learning
 
 This project focuses on predicting Chronic Kidney Disease (CKD) using machine learning techniques. CKD is a major health concern linked to hypertension, diabetes, and aging. Early detection can help improve treatment and management.  
 
@@ -68,6 +64,3 @@ The dataset consists of 400 patient records, with 158 complete records used to p
 
 ## Results  
 The Extra Trees Classifier and Random Forest achieved the highest accuracy in predicting CKD.  
----
-
-Let me know if you need any modifications!
