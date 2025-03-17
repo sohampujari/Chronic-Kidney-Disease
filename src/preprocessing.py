@@ -3,10 +3,10 @@ from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import LabelEncoder
 
 def preprocess_data(../Data/kidney_disease.csv):
-    df = pd.read_csv(../Data/kidney_disease.csv)
+    df = pd.read_csv(../Data/kidney_disease_processed.csv)
     
 df = preprocess_data(../Data/kidney_disease.csv)
-save_data(df, ../Data/kidney_disease.csv)
+save_data(df, ../Data/kidney_disease_processed.csv)
 
     imputer = SimpleImputer(strategy="mean")
     df.fillna(df.mean(), inplace=True)
