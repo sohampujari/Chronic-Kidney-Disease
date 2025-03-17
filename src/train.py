@@ -4,9 +4,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
-def train_model(data_path):
-    df = pd.read_csv(data_path)
-    X = df.drop(columns=['class'])  # Target column
+def train_model(../Data/kidney_disease_processed.csv):
+    df = pd.read_csv(../Data/kidney_disease_processed.csv)
+    X = df.drop(columns=['class']) 
     y = df['class']
     
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -19,8 +19,7 @@ def train_model(data_path):
     
     print(f"Model Accuracy: {accuracy:.2f}")
     
-    # Save the trained model
     joblib.dump(model, "model.pkl")
 
 if __name__ == "__main__":
-    train_model("../data/processed/ckd_processed.csv")
+    train_model("../Data/kidney_disease_processed.csv")
